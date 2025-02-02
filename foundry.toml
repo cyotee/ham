@@ -4,3 +4,10 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+fs_permissions = [{ access = "read-write", path = "./"}]
+# remappings = [
+#     # "forge-std/=lib/forge-std/src/",
+#     "forge-std/=lib/crane/lib/forge-std/src/",
+#     "crane/=lib/crane/src/"
+# ]
